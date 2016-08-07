@@ -1,0 +1,286 @@
+html, body {
+	font-family: "Raleway";
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	display: block;
+}
+
+.container {
+	position: relative;
+	min-height: 100%;
+	margin: 0px;
+	padding-top: 0px;
+}
+
+/*********************************************
+ * Header
+ *********************************************/
+.header {
+	width: 100%;
+	background-color: white;
+	margin: 0px;
+	text-align: right;
+}
+
+.header menu {
+	text-align: right;
+	margin: 0px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.header menu li {
+	display: inline-block;
+}
+
+.header menu li a {
+	/* 	border-radius: 0.4em; */
+	/* 	box-shadow: inset 0px 0px 1px 1px black; */
+	text-align: center;
+	vertical-align: middle;
+	padding: 20px;
+	list-style: none;
+	display: block;
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 0.7em;
+	letter-spacing: 0.25em;
+	margin: 0;
+	font-size: small;
+}
+
+.header menu li a:hover {
+	color: #12292E;
+	font-weight: bold;
+}
+
+.header .flags {
+	display: inline-block;
+	margin-right: 40px;
+	vertical-align: middle;
+}
+
+/*********************************************
+ * Content
+ *********************************************/
+.content {
+	text-align: center;
+	padding: 5px;
+}
+
+.container:last-child {
+	padding-bottom: 60px; /* Height of the footer */
+}
+
+.content ul li {
+	list-style: none;
+}
+
+.content h1 {
+	font-size: x-large;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+/*********************************************
+ * Home
+ *********************************************/
+#home {
+	background-image: url("../images/background-pattern3.jpg");
+	background-repeat: repeat;
+	border-radius: 0px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 2px 2px 2px black;
+}
+
+#home * {
+	color: white;
+}
+
+#home .item {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+#home .item .perfil {
+	background-image: url("../images/perfil.png");
+	background-size: 175px 200px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border-radius: 20px;
+	height: 200px;
+	width: 175px;
+}
+
+#home .hello {
+	font-size: xx-large;
+}
+
+#home .occupation {
+	font-size: x-large;
+}
+
+#home .social {
+	
+}
+
+#home .social .item {
+	display: inline-block;
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	height: 45px;
+	width: 45px;
+}
+
+#home .social .item label {
+	display: none;
+}
+
+#home .social .item.linkedin {
+	background-image: url("../images/linkedin.png");
+}
+
+#home .social .item.github {
+	background-image: url("../images/github.png");
+}
+
+#home .social .item.gplus {
+	background-image: url("../images/gplus.png");
+}
+
+#home .social .item.lattes {
+	background-image: url("../images/lattes.png");
+}
+
+#home .social .item.researchgate {
+	background-image: url("../images/researchgate.png");
+}
+
+/*********************************************
+ * Courses
+ *********************************************/
+#courses ul li {
+	display: inline-block;
+	vertical-align: top;
+	background-position: bottom;
+	background-size: 128px 128px;
+	background-repeat: no-repeat;
+	height: 167px;
+	width: 200px;
+	padding: 5px;
+	margin: 5px;
+}
+
+#courses ul li.database {
+	background-image: url("../images/database.png");
+}
+
+#courses ul li.probability {
+	background-image: url("../images/probability-statistic.png");
+}
+
+#courses ul li.research-methodology {
+	background-image: url("../images/research-methodology.png");
+}
+
+#courses ul li.machine-learning {
+	background-image: url("../images/brain.png");
+}
+
+/*********************************************
+ * Publications
+ *********************************************/
+#publications ul {
+	text-align: left;
+}
+
+#publications ul li {
+	text-align: left;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+/*********************************************
+ * Contact
+ *********************************************/
+#contact {
+	text-align: center;
+}
+
+#contact .content {
+	text-align: center;
+}
+
+#contact ul {
+	text-align: left;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#contact ul li {
+	text-align: left;
+	line-height: 1.5;
+	margin-bottom: 10px;
+	min-height: 24px;
+	padding-left: 32px;
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 24px 24px;
+}
+
+#contact ul li.gmail {
+	background-image: url("../images/gmail.png");
+}
+
+#contact ul li.skype {
+	background-image: url("../images/skype.png");
+}
+
+#contact ul li.address {
+	background-image: url("../images/address.png");
+}
+
+#contact .map {
+ 	height: 200px;
+ 	width: 45%;
+ 	display: inline-block;
+ 	min-width: 400px;
+ 	border: 0px;
+ 	height: 250px;
+ 	vertical-align: top;
+ 	box-shadow: 4px 4px 14px #000;
+ }
+/*********************************************
+ * Footer
+ *********************************************/
+.footer {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	width: 100%;
+	height: 60px; /* Height of the footer */
+	color: black;
+}
+
+.footer p {
+	background-color: transparent;
+	border-top: 1px solid black;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 11pt;
+	padding: 5px;
+	width: 95%;
+}
+
+.footer p span.right {
+	float: right;
+}
